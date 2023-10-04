@@ -1,0 +1,481 @@
+html {
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+}
+
+.navbar.navbar-expand-lg.navbar-light {
+    padding: 0.75rem 10rem 0.75rem 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    background-color: rgb(67, 82, 89);
+}
+
+.navbar-brand {
+    font-family: 'Poppins', serif;
+    font-size: 14px;
+}
+
+.navbar-nav.ml-auto {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    gap: 20px;
+}
+
+#nav-search {
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 30px;
+    background-color: #f4f2f2;
+}
+
+#nav-search::placeholder {
+    color: #a3a3a3;
+    font-weight: 300;
+}
+
+.input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.form-inline.my-2.my-lg-0 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.form-control.mr-sm-2 {
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: white;
+    padding: 8px 15px 8px 15px;
+    box-shadow: 0px 10px 20px rgba(60, 60, 60, 0.2);
+    width: 15rem;
+}
+
+.form-control.mr-sm-2::placeholder {
+    color: #787878;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.input-container span {
+    position: absolute;
+    right: 20px;
+}
+
+.btn.btn-primary {
+    border: none;
+    background-color: rgb(171, 151, 104);
+    color: white;
+    padding: 11px 20px 11px 20px;
+    font-family: 'Lora', sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    width: 100px;
+    border-radius: 0px;
+}
+
+.btn.btn-primary:hover {
+    background-color: rgb(184, 164, 117);
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 40px 0px 60px 0px;
+    background-color: rgb(67, 82, 89);
+}
+
+.title {
+    font-family: 'Libre Franklin', sans-serif;
+    color: rgb(67, 82, 89)
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 80%;
+    padding: 0rem 10rem 0rem 10rem;
+}
+
+.hero-text-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 10rem 0rem 0rem;
+    width: 60%;
+}
+
+.subtitle {
+    font-size: 12px;
+    width: 90%;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+.quote {
+    font-family: 'Lora', sans-serif;
+    width: 60%;
+    color: white;
+}
+
+
+/* Summary Section */
+.summary-section {
+    display: flex;
+    background-color: rgb(245, 254, 240);
+    padding: 2rem 10rem 5rem 10rem;
+    gap: 15%;
+    position: relative;
+}
+
+.summary {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+}
+
+.section-name {
+    transform: rotate(-90deg);
+    position: absolute; 
+    top: 6rem; 
+    left: 2rem;
+    color: rgb(184, 164, 117);
+}
+
+.author {
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(67, 82, 89)
+}
+
+.description {
+    font-size: 12px;
+    font-family: 'Playfair Display', serif;
+}
+
+.view {
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(67, 82, 89);
+}
+
+
+
+/* Playlist Section */
+.title-names {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.playlist {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.list-item {
+    display: flex;
+    gap: 20px;
+}
+
+.numbers {
+    background-color: white;
+    padding: 20px;
+    height: 4rem;
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: rgb(184, 164, 117);
+    margin-bottom: 0px;
+    font-family: 'Croissant One', cursive;
+}
+
+.book-name {
+    margin-bottom: 0px;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(67, 82, 89);
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.book-author {
+    margin-bottom: 0px;
+    font-size: 12px;
+    color: #a3a3a3;
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+/* Card section */
+.card-section {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(235, 234, 230);
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 10rem 5rem 10rem;
+    background-color: rgb(235, 234, 230);
+}
+
+.card-area {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 8rem;
+    gap: 20px;
+}
+
+.book-image {
+    width: 100%;
+    height: auto;
+}
+
+.class-description {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.card-section-title {
+    color: rgb(184, 164, 117);
+    font-weight: 500;
+    padding-top: 5rem;
+    padding-left: 10rem;
+}
+
+@media screen and (max-width: 1200px) {
+    .card-section-title {
+        padding-left: 5rem;
+    }
+
+    .cards {
+        padding: 2rem 5rem 5rem 5rem;
+    }
+
+    .summary-section {
+        padding: 2rem 5rem 5rem 5rem;
+    }
+
+    .hero-text {
+        padding: 0rem 5rem 0rem 5rem;
+    }
+    
+    .hero-text-2 {
+        padding: 0rem 5rem 0rem 0rem;
+    }
+
+    .navbar.navbar-expand-lg.navbar-light {
+        padding: 0.75rem 5rem 0.75rem 5rem;
+    }
+
+    .btn.btn-primary {
+        width: 5rem;
+    }
+
+    .section-name {
+        left: -1.5rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .card-section-title {
+        padding-left: 3rem;
+    }
+
+    .cards {
+        padding: 2rem 3rem 5rem 3rem;
+    }
+
+    .summary-section {
+        padding: 2rem 3rem 5rem 3rem;
+    }
+
+    .hero-text {
+        padding: 0rem 3rem 0rem 3rem;
+    }
+    
+    .hero-text-2 {
+        padding: 0rem 3rem 0rem 0rem;
+    }
+
+    .navbar.navbar-expand-lg.navbar-light {
+        padding: 0.75rem 3rem 0.75rem 3rem;
+    }
+
+    .btn.btn-primary {
+        width: 5rem;
+    }
+
+    .section-name {
+        color: rgb(184, 164, 117);
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .hero-section {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .hero-text-2 {
+        padding: 0px;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .subtitle {
+        width: auto;
+    }
+
+    .summary-section {
+        flex-direction: column;
+    }
+
+    .summary {
+        width: 100%;
+    }
+
+    .playlist {
+        padding-top:2rem;
+    }
+
+    .card-area {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 5rem;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .card-section-title {
+        padding-left: 1.5rem;
+    }
+
+    .cards {
+        padding: 2rem 1.5rem 5rem 1.5rem;
+    }
+
+    .summary-section {
+        padding: 2rem 1.5rem 5rem 1.5rem;
+    }
+
+    .hero-text {
+        padding: 0rem 1.5rem 0rem 1.5rem;
+    }
+    
+    .hero-text-2 {
+        padding: 0rem 1.5rem 0rem 0rem;
+    }
+
+    .navbar.navbar-expand-lg.navbar-light {
+        padding: 0.75rem 1.5rem 0.75rem 1.5rem;
+    }
+
+    .quote {
+        font-size: 36px;
+        width: auto;
+    }
+
+    .hero-text {
+        padding: 0px;
+    }
+
+    .title {
+        font-size: 36px;
+    }
+
+    .description {
+        text-align: justify;
+    }
+
+    .hero-section {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .hero-text-2 {
+        padding: 0px;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .subtitle {
+        width: auto;
+    }
+
+    .summary-section {
+        flex-direction: column;
+    }
+
+    .summary {
+        width: 100%;
+    }
+
+    .playlist {
+        padding-top:2rem;
+        gap: 40px;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+    }
+
+    .card-area {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 15rem;
+        gap: 20px;
+    }
+
+    .book-name {
+        font-size: 20px;
+    }
+
+    .book-author {
+        font-size: 16px;
+    }
+
+    .card-section-title {
+        padding-top: 3rem;
+    }
+
+    .btn.btn-primary {
+        width: 100%;
+    }
+
+    .form-inline.my-2.my-lg-0 {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #b-name {
+        font-size: 16px;
+    }
+}
