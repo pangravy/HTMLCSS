@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+
+<head>
+  <title>Pet Store</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abel&family=Poppins&display=swap" rel="stylesheet">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <style>
+    body {
+      color: darkblue;
+      font-family: 'Abel', sans-serif;
+      font-family: 'Poppins', sans-serif;
+      font-weight: bold;
+    }
+
+    .b {
+      display: flex;
+      float: right;
+      
+      width:45%;
+      justify-content:center;
+
+    }
+
+    .a {
+      
+      display: flex;
+      flex-wrap: wrap;
+      width: 45%;
+      flex-direction: column;
+      
+      justify-content:center;
+    
+    }
+
+    .content {
+      margin-top:8%;
+      align-items:center;
+      display: flex;
+      width: 100%;
+      justify-content: space-around;
+      flex-direction: row;
+      
+    }
+
+    .ac {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-around;
+
+    }
+
+    .navbar-nav {
+      display: flex;
+      justify-content: space-between;
+
+
+    }
+
+    .s {
+      display: flex;
+      flex-direction: row;
+      
+      justify-content: space-around;
+      gap: 3rem;
+    }
+
+    .ic {
+      color: black;
+      margin-top: 1rem;
+      color: darkblue;
+    }
+
+    input {
+      width: 50%;
+      border-radius: 20px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
+    button {
+      border-radius: 20px;
+      background-color: peru;
+      padding: 5px 20px;
+    }
+
+    img {
+      border-radius: 10px;
+    }
+    .navbar-nav{
+      display:flex;
+      justify-content:space-between;
+     
+      width:100%;
+    }
+    .aa{
+      display:flex;
+    }  
+    @media screen and (max-width:670px){
+      .content{
+        display:flex;
+        flex-direction:column;
+        justify-content:space-around;
+        align-items:space-around;
+      }
+      .b {
+      display: flex;
+  
+      
+      height:45%;
+      width:100%;
+      justify-content:center;
+
+    }
+
+    .a {
+      margin-bottom:10%;
+      padding-top: 10%;
+      padding-left: 20%;
+      display: flex;
+      flex-wrap: wrap;
+      height:45%;
+      width: 100%;
+      flex-direction: column;
+     
+    }
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><i class="fa fa-paw" style="font-size:24px;color:darkblue;""></i></a>
+      <button class=" navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <div class="aa"><a class="nav-link active" aria-current="page" href="#" style="color:darkblue;">Home</a>
+              
+              <a class="nav-link" href="#" style="color:darkblue;">Categories</a>
+              <a class="nav-link" href="#" style="color:darkblue;">Blog</a>
+              </div>
+              <div class="s">
+                <div class="ac"><a class="nav-link2" href="#"><i class="fa fa-search ic"></i></a></div>
+                <div class="ac"><a class="nav-link2" href="#"><i class="fa fa-shopping-cart ic"></i></a></div>
+              </div>
+            </div>
+          </div>
+    </div>
+  </nav>
+  <hr>
+  <div class="content">
+    <div class="a">
+      <p style="font-size:30px;">The best place to buy top quality products for your pets</p>
+      <p>Shop by pet,brand or products on sale!</p>
+      <div class="search">
+        <input type="text" id="search" name="search" placeholder="What are you looking for?">
+        <button type="b1" id="button">Search</button>
+      </div>
+    </div>
+    <div class="b">
+      <img
+        src="https://images.pexels.com/photos/1851164/pexels-photo-1851164.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        width="300vp">
+    </div>
+  </div>
+</body>
+
+</html>
